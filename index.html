@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Compact QR Code</title>
+        <style>
+            /* RESET TO ELIMINATE SCROLLING */
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                overflow: hidden; /* Prevents scrolling */
+            }
+
+            body {
+                background-color: lightblue;
+                font-family: sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-image: url("https://www.transparenttextures.com/patterns/rice-paper.png");
+                position: relative;
+            }
+
+            .card {
+                background: rgba(255, 255, 255, 0.7);
+                /*  backdrop-filter: blur(5px); glassy feel*/
+                border-radius: 10px;
+                width: 220px;
+                padding: 15px;
+                margin-top: 40vh; /* 10% from top */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+
+            .qr-code {
+                width: 100%;
+                border-radius: 8px;
+                margin-bottom: 12px;
+                display: block;
+            }
+
+            h1 {
+                font-size: 15px;
+                margin: 0 0 8px;
+                color: #333;
+                text-align: center;
+            }
+
+            p {
+                font-size: 11px;
+                margin: 0;
+                color: #555;
+                text-align: center;
+            }
+
+            .attribution {
+                position: absolute;
+                bottom: 5px;
+                width: 100%;
+                text-align: center;
+                font-size: 10px;
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img class="qr-code" src="images/image-qr-code.png" alt="QR Code" />
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor</p>
+        </div>
+
+        <div class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="#">Billy</a>.
+        </div>
+    </body>
+</html>
