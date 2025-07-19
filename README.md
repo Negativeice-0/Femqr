@@ -1,1 +1,1 @@
-THe amount of reading required is insane, I braely glossed over all those resources and somehow managed to build somthing, I just hope it all sticks.
+Day one at front end mentor, html, css and javascript can be quite extra. I decided to strip it down to a bare minimum and hopefully will get even more interesting challenges as i progress through the course.
